@@ -19,6 +19,10 @@ public class LogicOperators {
             System.out.println("Our team doesn't have medals at all");
         }
 
+        if (gold == 0 ^ silver == 5){   // one of the states should be TRUE and another should be FALSE
+            System.out.println("logical binary exclusion");
+        }
+
         if (gold > 0){
             if (silver > 0){
                 if (bronze > 0){
