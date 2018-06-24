@@ -19,12 +19,12 @@ public class LogicOperators {
             System.out.println("Our team doesn't have medals at all");
         }
 
-//        if (gold > 0){
-//            if (silver > 0){
-//                if (bronze > 0){
-//                    System.out.println("Our team have all type of medals");
-//                }
-//            }
-//        }
+        if (gold > 0){
+            if (silver > 0){
+                if (bronze > 0){
+                    System.out.println("Our team have all type of medals");
+                }
+            }
+        }
     }
 }
