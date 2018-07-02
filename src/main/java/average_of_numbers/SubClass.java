@@ -1,6 +1,6 @@
 package average_of_numbers;
 
-public class SubClass extends Average {
+public class SubClass {
 
     SubClass() {
     }

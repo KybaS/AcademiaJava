@@ -2,7 +2,7 @@ package average_of_numbers;
 
 import java.util.Scanner;
 
-public class Average {
+public class Average extends SubClass{
     public static void main(String[] args) {
 
         //first trying
@@ -11,8 +11,7 @@ public class Average {
         double thirdNumber;
         double fourthNumber;
 
-        System.out.println("Enter four numbers for calculating average: ");
-
+        System.out.println("Enter four numbersRand for calculating average: ");
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first number -   ");
@@ -33,7 +32,7 @@ public class Average {
 
 
         //second trying
-        System.out.println("Enter three numbers for calculating average: ");
+        System.out.println("Enter three numbersRand for calculating average: ");
 
         Scanner scanners = new Scanner(System.in);
 
@@ -65,6 +64,7 @@ public class Average {
 
         }
         double average = suma / --amount_of_numbers;
-        System.out.println("Average = " + average + " with " + amount_of_numbers + " numbers");
+        System.out.println("Average = " + average + " with " + amount_of_numbers + " numbersRand");
+
     }
 }
