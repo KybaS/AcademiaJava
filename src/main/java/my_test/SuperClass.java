@@ -34,7 +34,11 @@ public class SuperClass extends SubClass{
            String result = myStrings.get(subClass.random_number).toString();
            subClass.random_number = subClass.random_number + count;
            count++;
-            System.out.println(result + " " + count);
+            System.out.println(result + "  " + count);
+
+
+
+
 
         }
     }
