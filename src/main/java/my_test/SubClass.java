@@ -15,8 +15,7 @@ public class SubClass {
     }
 
      String[] generatorStrings(String... strings){
-        String[] sentence = strings;
-        return sentence;
+        return strings;
     }
 
     protected void stringsRand(String... strings){

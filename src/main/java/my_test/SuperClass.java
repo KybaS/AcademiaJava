@@ -2,7 +2,7 @@ package my_test;
 
 import java.util.ArrayList;
 
-public class SuperClass extends SubClass{
+public class SuperClass extends SubClass {
     public static void main(String[] args) {
 
         SubClass subClass = new SubClass();
@@ -28,17 +28,12 @@ public class SuperClass extends SubClass{
         String res = myStrings.get(2).toString();
         System.out.println(res + " " + size);
 
-
         int count = 0;
-        for (int i = 0; i < 5; i++){
-           String result = myStrings.get(subClass.random_number).toString();
-           subClass.random_number = subClass.random_number + count;
-           count++;
+        for (int i = 0; i < 5; i++) {
+            String result = myStrings.get(subClass.random_number).toString();
+            subClass.random_number = subClass.random_number + count;
+            count++;
             System.out.println(result + "  " + count);
-
-
-
-
 
         }
     }
