@@ -18,7 +18,7 @@ public class WhileClass {
         Scanner nextScan = new Scanner(System.in);
         String word = " ";
 
-        while (!word.equals("tea")){
+        while (!word.equals("tea")) {
             System.out.println("I want some tea!!! give me tea!!!");
             word = nextScan.nextLine();
         }
