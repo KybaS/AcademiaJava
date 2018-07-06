@@ -8,7 +8,7 @@ public class Sample {
         System.out.println("Enter your ID number please ");
         Scanner scan = new Scanner(System.in);
         int id = scan.nextInt();
-        double price = 0.0;
+        double price;
         String person;
         if (id > 1001 && id < 55000) {
             price = 2.0;
