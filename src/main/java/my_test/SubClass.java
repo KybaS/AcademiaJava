@@ -22,8 +22,4 @@ public class SubClass {
         String[] result = generatorStrings(strings);
         System.out.println(result[random_number]);
     }
-
-
-
-
 }
