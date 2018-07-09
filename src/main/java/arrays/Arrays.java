@@ -6,9 +6,10 @@ public class Arrays {
         int[] numbers = {5, 7, 100, 505};
         numbers[1] = 777;
 
-        String[] summerMonths = {"June", "July", "August"};
-
         System.out.println(numbers[0] + " " + numbers[1] + " " + numbers[2]);
+
+
+        String[] summerMonths = {"June", "July", "August"};
 
         for (String summerMonth : summerMonths) {
             System.out.print(summerMonth + " / ");
