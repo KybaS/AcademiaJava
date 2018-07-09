@@ -20,7 +20,7 @@ public class MethodsWithParam {
 
     }
 
-    private static void sayHello(String name, int age, double weight, int favorite_number){
+    private static void sayHello(String name, int age, double weight, int favorite_number) {
         System.out.println("Hello, " + name + " (" + age + ") " + "with weight " + weight + " and favorite number " + favorite_number);
     }
 }

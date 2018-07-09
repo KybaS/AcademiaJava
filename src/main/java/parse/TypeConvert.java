@@ -23,11 +23,11 @@ public class TypeConvert {
 
     }
 
-     private static void outputData(String text, int lengths){
+    private static void outputData(String text, int lengths) {
         System.out.println(text.toUpperCase() + " has " + lengths + " length");
-        if (text.contains("son of bitch")){
+        if (text.contains("son of bitch")) {
             System.out.println("bad word");
-        }else {
+        } else {
             System.out.println("ok");
         }
     }

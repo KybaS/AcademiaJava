@@ -10,8 +10,7 @@ public class Switch {
         Scanner scan = new Scanner(System.in);
         letter = scan.nextLine();
 
-        switch (letter.toUpperCase())
-        {
+        switch (letter.toUpperCase()) {
             case "A":
             case "E":
             case "I":

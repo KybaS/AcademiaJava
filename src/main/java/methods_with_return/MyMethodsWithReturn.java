@@ -3,7 +3,6 @@ package methods_with_return;
 /**
  * test comments
  * methods with return
- * @author skyba
  */
 public class MyMethodsWithReturn {
 
@@ -16,18 +15,19 @@ public class MyMethodsWithReturn {
         System.out.println(sumRes);
     }
 
-    private static String sayHelloTo(String name){
+    private static String sayHelloTo(String name) {
         String sentences = "Hello " + name;
         return sentences;
     }
 
     /**
      * test comments
+     *
      * @param x first number multiply to
      * @param y second number
      * @return result multiply x * y
      */
-    private static int sum(int x, int y){
+    private static int sum(int x, int y) {
         int res = x * y;
         return res;
     }

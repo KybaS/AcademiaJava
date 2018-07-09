@@ -8,6 +8,6 @@ public class DoWhile {
         do {
             System.out.println(number);
             number++;
-        }while (number <= 6);
+        } while (number <= 6);
     }
 }
