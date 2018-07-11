@@ -8,10 +8,10 @@ public class Lotto {
 
         System.out.println("Enter 6 numbers via comma (from 1 to 54): ");
         Scanner scan = new Scanner(System.in);
-        String numbers = scan.nextLine();
+        String string_numbers = scan.nextLine();
         scan.close();
 
-        String[] arrayOfNumbers = numbers.split(",");
+        String[] arrayOfNumbers = string_numbers.split(",");
 
         int[] circulation = new int[6];
         Random rand = new Random();
@@ -41,7 +41,7 @@ public class Lotto {
         }
         String all_num = "";
         for (int pars_num : circulation) {
-            all_num = all_num+ pars_num + "";
+            all_num = all_num+ pars_num + ", ";
         }
         System.out.println("Number of matches " + all_num + " number of attempts " + num_of_matches);
     }
