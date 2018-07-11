@@ -1,4 +1,4 @@
-package methods_with_return;
+package methods;
 
 /**
  * test comments
