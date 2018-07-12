@@ -29,9 +29,9 @@ public class Arrays {
     public static void recheckNumValue(int num) {
         if (num < 0) {
             System.out.println("x1 = " + num + " number has a negative value");
-        } else if (num > 0){
+        } else if (num > 0) {
             System.out.println("x1 =  " + num + " number has a positive value");
-        } else if (num == 0){
+        } else if (num == 0) {
             System.out.println("This is zero");
         } else {
             System.out.println("ERROR which will never to be occurs");
