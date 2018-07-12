@@ -26,15 +26,15 @@ public class Arrays {
         System.out.print("x2 = " + result + "\t");
     }
 
-    public static void recheckNumValue(int a) {
-        if (a < 0) {
-            System.out.println("x1 = " + a + " number has a negative value");
-        } else if (a > 0){
-            System.out.println("x1 =  " + a + " number has a positive value");
-        } else if (a == 0){
+    public static void recheckNumValue(int num) {
+        if (num < 0) {
+            System.out.println("x1 = " + num + " number has a negative value");
+        } else if (num > 0){
+            System.out.println("x1 =  " + num + " number has a positive value");
+        } else if (num == 0){
             System.out.println("This is zero");
         } else {
-            System.out.println("ERROR which will never to be");
+            System.out.println("ERROR which will never to be occurs");
         }
     }
 }
