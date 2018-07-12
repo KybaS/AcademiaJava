@@ -34,7 +34,7 @@ public class Arrays {
         } else if (a == 0){
             System.out.println("This is zero");
         } else {
-            System.out.println("ERROR which will never to being");
+            System.out.println("ERROR which will never to be");
         }
     }
 }
