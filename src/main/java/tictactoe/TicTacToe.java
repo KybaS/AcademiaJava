@@ -3,7 +3,6 @@ package tictactoe;
 import java.util.Scanner;
 
 public class TicTacToe {
-
     private static final String EMPTY_CELL = "   ", X = " X ", O = " 0 ";
     private static final int ROWS = 3, COLUMNS = 3;
     private static String activePlayer;
