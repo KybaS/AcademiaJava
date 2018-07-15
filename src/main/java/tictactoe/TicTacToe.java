@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TicTacToe {
 
-    private static final String EMPTY_CELL = "   ", NOUGHT = " X ", CROSS = " 0 ";
+    private static final String EMPTY_CELL = "   ", X = " X ", O = " 0 ";
     private static final int ROWS = 3, COLUMNS = 3;
     private static String activePlayer;
     private static String[][] playingField = new String[ROWS][COLUMNS];
@@ -26,7 +26,7 @@ public class TicTacToe {
                 System.out.println("The game ended in a draw");
             }
 
-            activePlayer = (activePlayer == NOUGHT ? CROSS : NOUGHT);
+            activePlayer = (activePlayer == X ? O : X);
         }
         while (gameStatus == GAME_STATUS_CONTINUES);
     }
@@ -37,7 +37,7 @@ public class TicTacToe {
                 playingField[row][column] = EMPTY_CELL;
             }
         }
-        activePlayer = NOUGHT;
+        activePlayer = X;
         printAllCells();
     }
 
@@ -60,9 +60,9 @@ public class TicTacToe {
 
     private static void reviewFields() {
         String winner = findWinner();
-        if (winner.equals(NOUGHT)) {
+        if (winner.equals(X)) {
             gameStatus = GAME_STATUS_VICTORY_X;
-        } else if (winner.equals(CROSS)) {
+        } else if (winner.equals(O)) {
             gameStatus = GAME_STATUS_VICTORY_0;
         } else if (areAllCellsFilled()) {
             gameStatus = GAME_STATUS_DRAW;
