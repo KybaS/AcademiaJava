@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Sample {
     public static void main(String[] args) {
 
-        System.out.println("Enter your ID number please ");
+        System.out.println("Enter your ID number please: ");
         Scanner scan = new Scanner(System.in);
         int id = scan.nextInt();
         double price;
@@ -20,7 +20,7 @@ public class Sample {
         System.out.println("Price for " + person + " is " + price);
 
 
-        System.out.println("Enter your ID number please ");
+        System.out.println("Enter your ID number please: ");
         Scanner scanner = new Scanner(System.in);
         int ids = scanner.nextInt();
 

@@ -13,7 +13,7 @@ public class ArraySort {
 
     }
 
-    public static void sortAndPrint(int[] m) {
+    private static void sortAndPrint(int[] m) {
         Arrays.sort(m);
         System.out.println(Arrays.toString(m));
 
@@ -23,7 +23,7 @@ public class ArraySort {
         }
     }
 
-    public static void bubbleSort(int[] m) {
+    private static void bubbleSort(int[] m) {
         int repeat = 0;
         boolean replacement = true;
 

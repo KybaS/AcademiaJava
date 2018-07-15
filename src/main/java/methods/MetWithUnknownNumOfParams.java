@@ -1,6 +1,8 @@
 package methods;
 
 public class MetWithUnknownNumOfParams {
+
+    private static double sum = 0;
     public static void main(String[] args) {
 
         System.out.println(calculatingAverageOfNum(23,34,54,344,43,3456,34534,34534,23,45,345,435.45,345.43));
@@ -9,7 +11,6 @@ public class MetWithUnknownNumOfParams {
     }
 
     private static double calculatingAverageOfNum(double... numbers){
-        double sum = 0;
         for (double i: numbers)
             sum+=i;
         return sum/numbers.length;
