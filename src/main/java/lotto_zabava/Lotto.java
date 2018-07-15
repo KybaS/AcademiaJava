@@ -41,7 +41,7 @@ public class Lotto {
         }
         String all_num = "";
         for (int pars_num : circulation) {
-            all_num = all_num+ pars_num + ", ";
+            all_num = all_num + pars_num + ", ";
         }
         System.out.println("Number of matches " + all_num + " number of attempts " + num_of_matches);
     }

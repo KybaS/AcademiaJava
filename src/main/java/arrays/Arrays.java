@@ -21,12 +21,12 @@ public class Arrays {
 
     }
 
-    public static void sumOfArray(int num) {
+    private static void sumOfArray(int num) {
         int result = num * 2;
         System.out.print("x2 = " + result + "\t");
     }
 
-    public static void recheckNumValue(int num) {
+    private static void recheckNumValue(int num) {
         if (num < 0) {
             System.out.println("x1 = " + num + " number has a negative value");
         } else if (num > 0) {

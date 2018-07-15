@@ -7,25 +7,25 @@ public class LogicOperators {
 
         System.out.println("General amount of medals are " + (gold + silver + bronze));
 
-        if (gold > 0 && silver > 0 && bronze >0){   // && means AND
+        if (gold > 0 && silver > 0 && bronze > 0) {   // && means AND
             System.out.println("Our team have all type of medals");
-            }else{
+        } else {
             System.out.println("Our team doesn't have all type of medals");
         }
 
-        if (gold > 0 || silver > 0 || bronze > 0){  // || means OR
+        if (gold > 0 || silver > 0 || bronze > 0) {  // || means OR
             System.out.println("Our team have minimum one medal");
-        }else {
+        } else {
             System.out.println("Our team doesn't have medals at all");
         }
 
-        if (gold == 0 ^ silver == 5){   // one of the states should be TRUE and another should be FALSE
+        if (gold == 0 ^ silver == 5) {   // one of the states should be TRUE and another should be FALSE
             System.out.println("logical binary exclusion");
         }
 
-        if (gold > 0){
-            if (silver > 0){
-                if (bronze > 0){
+        if (gold > 0) {
+            if (silver > 0) {
+                if (bronze > 0) {
                     System.out.println("Our team have all type of medals");
                 }
             }

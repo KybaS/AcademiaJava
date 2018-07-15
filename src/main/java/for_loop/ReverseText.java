@@ -9,8 +9,8 @@ public class ReverseText {
         System.out.print("Enter some text: ");
         String text = scan.nextLine();
 
-        for (int i = text.length() - 1; i >= 0;  i--) {
-            System.out.print(text.substring(i , i +1));
+        for (int i = text.length() - 1; i >= 0; i--) {
+            System.out.print(text.substring(i, i + 1));
         }
     }
 }

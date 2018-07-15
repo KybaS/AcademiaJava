@@ -15,13 +15,13 @@ public class MethodWithArg {
             System.out.print(i + " ");
     }
 
-    public static int processedData(int n1, int n2) {
+    private static int processedData(int n1, int n2) {
         n1 = n1 * 10;
         n2 = n2 * 100;
         return n1 + n2;
     }
 
-    public static void processedData(int[] m) {
+    private static void processedData(int[] m) {
         for (int index = 0; index < m.length; index++)
             m[index] = m[index] + 1;
     }

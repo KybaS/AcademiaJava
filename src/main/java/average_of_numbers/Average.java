@@ -2,7 +2,7 @@ package average_of_numbers;
 
 import java.util.Scanner;
 
-public class Average extends SubClass{
+public class Average extends SubClass {
     public static void main(String[] args) {
 
         //first trying

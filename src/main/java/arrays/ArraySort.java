@@ -8,9 +8,7 @@ public class ArraySort {
         int[] array = {4, 7, 5, 2, 10, 5, 100};
 
         sortAndPrint(array);
-
         bubbleSort(array);
-
     }
 
     private static void sortAndPrint(int[] m) {
