@@ -8,19 +8,19 @@ public class MetWithUnknownNumOfParams {
         printListOfNumbers(45,23,234,34,4554,34,32,2,21,103,545);
     }
 
-    public static double calculatingAverageOfNum(double...numbers){
+    private static double calculatingAverageOfNum(double... numbers){
         double sum = 0;
         for (double i: numbers)
             sum+=i;
         return sum/numbers.length;
     }
 
-    public static String numOfPassedParams(String...words){
+    private static String numOfPassedParams(String... words){
            int num = words.length;
         return String.valueOf(num);
     }
 
-    public static void printListOfNumbers(int...ints){
+    private static void printListOfNumbers(int... ints){
         for (int numbers:ints)
         System.out.print(numbers + "\t");
     }
