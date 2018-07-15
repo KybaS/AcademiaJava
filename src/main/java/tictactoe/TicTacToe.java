@@ -9,7 +9,6 @@ public class TicTacToe {
     private static String[][] playingField = new String[ROWS][COLUMNS];
     private static int gameStatus;
     private static final int GAME_STATUS_CONTINUES = 0, GAME_STATUS_DRAW = 1, GAME_STATUS_VICTORY_X = 3, GAME_STATUS_VICTORY_0 = 4;
-    private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
         startGame();
@@ -43,19 +42,25 @@ public class TicTacToe {
     private static void getEnteredData() {
         boolean correctInput = false;
 
-        do {
-            System.out.print("Player " + activePlayer + ", enter row (1-3 and column (1-3) through space: ");
-            int row = input.nextInt() - 1;
-            int column = input.nextInt() - 1;
+            do {
+                try {
+                System.out.print("Player " + activePlayer + ", enter row (1-3 and column (1-3) through space: ");
+                Scanner input = new Scanner(System.in);
+                int row = input.nextInt() - 1;
+                int column = input.nextInt() - 1;
 
-            if (row >= 0 && row < ROWS && column >= 0 && column < COLUMNS && playingField[row][column] == EMPTY_CELL) {
-                playingField[row][column] = activePlayer;
-                correctInput = true;
-            } else {
-                System.out.println("Selected placing (" + (row + 1) + "," + (column + 1) + ") can't be used. Try again ...");
-            }
-        } while (!correctInput);
+                if (row >= 0 && row < ROWS && column >= 0 && column < COLUMNS && playingField[row][column] == EMPTY_CELL) {
+                    playingField[row][column] = activePlayer;
+                    correctInput = true;
+                } else {
+                    System.out.println("Selected placing (" + (row + 1) + "," + (column + 1) + ") can't be used. Try again ...");
+                }
+            }catch (Exception e){
+                    System.out.println("You did not enter an integer, please enter an integer value");
+                }
+        }while (!correctInput);
     }
+
 
     private static void reviewFields() {
         String winner = findWinner();
