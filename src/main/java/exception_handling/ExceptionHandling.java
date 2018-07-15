@@ -20,7 +20,7 @@ public class ExceptionHandling {
             int num = scan1.nextInt();
             System.out.println("Your favorite number is - " + num);
         } catch (Exception e) {
-            System.out.println("The wrong symbol was entered");
+            System.out.println("The wrong symbol was entered ");
         }
     }
 }
