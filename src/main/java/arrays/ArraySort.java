@@ -5,10 +5,19 @@ import java.util.Arrays;
 public class ArraySort {
     public static void main(String[] args) {
 
-        int[] array = {4, 7, 5, 2, 10, 5, 100};
+        int[] array = {1000, 5, 5, 10, 5, 100};
 
         sortAndPrint(array);
         bubbleSort(array);
+        System.out.println(displaySumOfArray(array));
+    }
+
+    private static int displaySumOfArray(int[] numbers){
+        int sum = 0;
+        for (int i:numbers){
+            sum+=i;
+        }
+        return sum;
     }
 
     private static void sortAndPrint(int[] m) {
