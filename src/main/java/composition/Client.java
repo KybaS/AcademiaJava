@@ -17,6 +17,6 @@ public class Client {
     }
 
     public String toString() {
-        return String.format("Name: %s %s%nDate of Birth: %s%nBecame our client: %s%nClient parameters%n%s", firstName, lastName, dateOfBirth, becameOurClient, mass);
+        return String.format("Name: %s %s%nDate of Birth: %s%nBecame of our client: %s%nClient parameters%n%s", firstName, lastName, dateOfBirth, becameOurClient, mass);
     }
 }
