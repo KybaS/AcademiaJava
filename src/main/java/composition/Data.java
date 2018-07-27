@@ -5,13 +5,13 @@ public class Data {
     private int month;
     private int year;
 
-    public Data(int d, int m, int y){
-        this.day = d;
-        this.month = m;
-        this.year = y;
+    public Data(int day, int month, int year) {
+        this.day = day;
+        this.month = month;
+        this.year = year;
     }
 
-    public String toString(){
+    public String toString() {
         return String.format("%s/%s/%s", day, month, year);
     }
 }

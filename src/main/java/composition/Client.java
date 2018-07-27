@@ -2,15 +2,19 @@ package composition;
 
 public class Client {
 
-    private String name;
+    private String firstName;
+    private String lastName;
     private Data dateOfBirth;
+    private Data becameOurClient;
 
-    public Client(String n, Data dn){
-        this.name = n;
-        this.dateOfBirth = dn;
+    Client(String firstName, String lastName, Data dayOfBirth, Data becameOurClient) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dateOfBirth = dayOfBirth;
+        this.becameOurClient = becameOurClient;
     }
 
-    public String toString(){
-        return String.format("Name:%s%n Date of Birth: %s", name, dateOfBirth);
+    public String toString() {
+        return String.format("Name: %s %s%nDate of Birth: %s%nBecame our client: %s", firstName, lastName, dateOfBirth, becameOurClient);
     }
 }
