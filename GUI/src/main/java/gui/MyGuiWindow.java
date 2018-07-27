@@ -6,7 +6,8 @@ public class MyGuiWindow {
     public static void main(String[] args) {
 
         Window window = new Window();
-        window.setSize(400, 200);
+        window.setLocationRelativeTo(null);
+        window.setSize(600, 300);
         window.setVisible(true);
         window.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
