@@ -15,7 +15,9 @@ public class Composition {
         System.out.printf("%s", firstClient);
         mass.indexOfMass(170, 75, 15);
 
-        switch (getCurrentMonth()) {
+        System.out.println("Result of  the method getCurrentSeason - " + getCurrentSeason());
+
+        switch (getCurrentSeason()) {
             case "winter":
                 System.out.println("You should dress warmer");
                 break;
@@ -31,7 +33,7 @@ public class Composition {
         }
     }
 
-    private static String getCurrentMonth() {
+    private static String getCurrentSeason() {
 
         LocalDateTime now = LocalDateTime.now();
 
