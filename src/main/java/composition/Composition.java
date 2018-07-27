@@ -13,27 +13,31 @@ public class Composition {
         Client firstClient = new Client("John", "Lennon", dayOfBirth, becameOurClient, mass);
 
         System.out.printf("%s", firstClient);
-        mass.indexOfMass(170, 75, 15);
+        mass.indexOfMass(170, 70, 35);
 
         System.out.println("Result of  the method getCurrentSeason - " + getCurrentSeason());
 
         switch (getCurrentSeason()) {
-            case "winter":
+            case WINTER:
                 System.out.println("You should dress warmer");
                 break;
-            case "spring":
+            case SPRING:
                 System.out.println("You should enjoy the spring");
                 break;
-            case "summer":
-                System.out.println("You should spend more time in the water, because of the summer is too hot as always");
+            case SUMMER:
+                System.out.println("You should spend more time in the water, because of the " + Seasons.SUMMER + " is too hot as always");
                 break;
-            case "autumn":
+            case AUTUMN:
                 System.out.println("It's time to drink more tea");
+                break;
+            default:
+            case UNKNOWN:
+                System.out.println("Unknown data");
                 break;
         }
     }
 
-    private static String getCurrentSeason() {
+    private static Seasons getCurrentSeason() {
 
         LocalDateTime now = LocalDateTime.now();
 
@@ -54,21 +58,21 @@ public class Composition {
             case 1:
             case 2:
             case 12:
-                return "winter";
+                return Seasons.WINTER;
             case 3:
             case 4:
             case 5:
-                return "spring";
+                return Seasons.SPRING;
             case 6:
             case 7:
             case 8:
-                return "summer";
+                return Seasons.SUMMER;
             case 9:
             case 10:
             case 11:
-                return "autumn";
+                return Seasons.AUTUMN;
             default:
-                return "unknown data";
+                return Seasons.UNKNOWN;
         }
     }
 }

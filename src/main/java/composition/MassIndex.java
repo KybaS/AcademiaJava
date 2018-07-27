@@ -15,7 +15,7 @@ public class MassIndex {
         return String.format("Height: %s%nWeight: %s%nAge: %s%n", height, weight, age);
     }
 
-    public void indexOfMass(int height, int weight, int age) {
+    void indexOfMass(int height, int weight, int age) {
         this.height = height;
         this.weight = weight;
         this.age = age;
