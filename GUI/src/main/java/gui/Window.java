@@ -4,10 +4,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Calendar;
 
 class Window extends JFrame {
-    JLabel firstLabel;
-    JButton firstButton;
+    private JLabel firstLabel;
+    private JButton saveButton;
+    private JButton cancelButton;
 
     Window() {
         super("JFrame window");
@@ -15,21 +17,30 @@ class Window extends JFrame {
         setLayout(new FlowLayout());
 
         firstLabel = new JLabel("This is JLabel ");
-        firstButton = new JButton("Press me");
+        saveButton = new JButton("Save");
+        cancelButton = new JButton("Cancel");
 
         add(firstLabel);
-        add(firstButton);
+        add(saveButton);
+        add(cancelButton);
 
         EventHandler eventHandler = new EventHandler();
-        firstButton.addActionListener(eventHandler);
+        saveButton.addActionListener(eventHandler);
+        cancelButton.addActionListener(eventHandler);
     }
 
     public class EventHandler implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            String txt = firstLabel.getText();
-            firstLabel.setText(txt + txt.length());
+          //  String txt = firstLabel.getText();
+          //  firstLabel.setText(txt + txt.length());
 
+            if (e.getSource()==saveButton){
+                Calendar calendar = Calendar.getInstance();
+                firstLabel.setText("Save button was pressed - " + calendar.getTime());
+            }else if(e.getSource()==cancelButton){
+                firstLabel.setText("");
+            }
         }
     }
 
