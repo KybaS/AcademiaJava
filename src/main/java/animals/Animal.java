@@ -2,8 +2,6 @@ package animals;
 
 public class Animal {
 
-    private boolean tail = true;
-
     public void sayHello() {
         System.out.println("Animal say hello!");
     }
