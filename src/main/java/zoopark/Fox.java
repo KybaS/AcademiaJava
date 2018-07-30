@@ -2,7 +2,7 @@ package zoopark;
 
  class Fox extends Animal {
 
-     Fox(String name){
-        super(name);
+     Fox(String name, Gender gender){
+        super(name, gender);
     }
 }
