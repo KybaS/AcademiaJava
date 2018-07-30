@@ -1,14 +1,14 @@
 package zoopark;
 
-public class GroupOfAnimals {
+ class GroupOfAnimals {
 
     private Animal[] group;
 
-    public GroupOfAnimals(int sum) {
+     GroupOfAnimals(int sum) {
         group = new Animal[sum];
     }
 
-    public void add(Animal animals) {
+     void add(Animal animals) {
         for (int i = 0; i < group.length; i++) {
             if (group[i] == null) {
                 group[i] = animals;

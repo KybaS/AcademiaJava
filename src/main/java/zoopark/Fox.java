@@ -1,8 +1,8 @@
 package zoopark;
 
-public class Fox extends Animal {
+ class Fox extends Animal {
 
-    public Fox(String name){
+     Fox(String name){
         super(name);
     }
 }
