@@ -4,7 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Calendar;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
 class Window extends JFrame {
     private JLabel firstLabel;
@@ -26,22 +27,46 @@ class Window extends JFrame {
 
         EventHandler eventHandler = new EventHandler();
         saveButton.addActionListener(eventHandler);
-        cancelButton.addActionListener(eventHandler);
+        cancelButton.addMouseListener(new MyMouseListener());
     }
 
     public class EventHandler implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-          //  String txt = firstLabel.getText();
-          //  firstLabel.setText(txt + txt.length());
+            JOptionPane.showMessageDialog(null, "Hello");
 
-            if (e.getSource()==saveButton){
-                Calendar calendar = Calendar.getInstance();
-                firstLabel.setText("Save button was pressed - " + calendar.getTime());
-            }else if(e.getSource()==cancelButton){
-                firstLabel.setText("");
-            }
+//            String txt = firstLabel.getText();
+//            firstLabel.setText(txt + txt.length());
+
+//            if (e.getSource()==saveButton){
+//                Calendar calendar = Calendar.getInstance();
+//                firstLabel.setText("Save button was pressed - " + calendar.getTime());
+//            }else if(e.getSource()==cancelButton){
+//                firstLabel.setText("");
+//            }
         }
     }
 
+    public class MyMouseListener implements MouseListener {
+        public void mouseClicked(MouseEvent e) {
+            cancelButton.setBackground(Color.RED);
+        }
+
+        public void mouseEntered(MouseEvent e) {
+            cancelButton.setBackground(Color.GREEN);
+        }
+
+        public void mousePressed(MouseEvent e) {
+            cancelButton.setBackground(Color.ORANGE);
+        }
+
+        public void mouseReleased(MouseEvent e) {
+            cancelButton.setBackground(Color.BLACK);
+        }
+
+        public void mouseExited(MouseEvent e) {
+            cancelButton.setBackground(Color.WHITE);
+        }
+
+    }
 }
