@@ -6,44 +6,40 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.util.Calendar;
+import java.util.Random;
 
 class Window extends JFrame {
-    private JLabel firstLabel;
-    private JButton saveButton;
+
+    int width = 500;
+    int height = 500;
     private JButton cancelButton;
 
     Window() {
         super("JFrame window");
-
         setLayout(new FlowLayout());
 
-        firstLabel = new JLabel("This is JLabel ");
-        saveButton = new JButton("Save");
-        cancelButton = new JButton("Cancel");
+        JPanel panel = new JPanel();
+        panel.setOpaque(true);
+        panel.setLayout(null);
 
-        add(firstLabel);
-        add(saveButton);
-        add(cancelButton);
+        cancelButton = new JButton("Cancel");
+        cancelButton.setLocation(25, 25);
+        cancelButton.setSize(100, 40);
+        panel.add(cancelButton);
 
         EventHandler eventHandler = new EventHandler();
-        saveButton.addActionListener(eventHandler);
+        cancelButton.addActionListener(eventHandler);
         cancelButton.addMouseListener(new MyMouseListener());
+
+        setContentPane(panel);
     }
 
     public class EventHandler implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            JOptionPane.showMessageDialog(null, "Hello");
-
-//            String txt = firstLabel.getText();
-//            firstLabel.setText(txt + txt.length());
-
-//            if (e.getSource()==saveButton){
-//                Calendar calendar = Calendar.getInstance();
-//                firstLabel.setText("Save button was pressed - " + calendar.getTime());
-//            }else if(e.getSource()==cancelButton){
-//                firstLabel.setText("");
-//            }
+            Calendar calendar = Calendar.getInstance();
+            JOptionPane.showMessageDialog(null, calendar.getTime());
         }
     }
 
@@ -54,6 +50,8 @@ class Window extends JFrame {
 
         public void mouseEntered(MouseEvent e) {
             cancelButton.setBackground(Color.GREEN);
+            Random r = new Random();
+            cancelButton.setLocation(r.nextInt(width - 100), r.nextInt(height - 100));
         }
 
         public void mousePressed(MouseEvent e) {
