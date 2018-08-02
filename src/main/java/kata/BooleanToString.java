@@ -10,7 +10,11 @@ public class BooleanToString {
         System.out.println(booleanToString(false));
         System.out.println(booleanToString(true));
 
-        System.out.println(isThisTriangle(10,0,30));
+        System.out.println(isThisTriangle(10, 0, 30));
+
+        reversedSequence(100);
+
+        System.out.println(switchItUp(7));
 
         UnitTestMyMethods unitTestMyMethods = new UnitTestMyMethods();
         unitTestMyMethods.testBoolToString();
@@ -34,6 +38,51 @@ public class BooleanToString {
         return a + b > c && a + c > b && b + c > a;
     }
 
+    private static void reversedSequence(int n) {
+        for (int i = 0; i < n; i++) {
+            int res = n--;
+            System.out.println(res);
+            i--;
+        }
+    }
+
+    private static String switchItUp(int number) {
+        String output = null;
+        switch (number) {
+            case 0:
+                output = "Zero";
+                break;
+            case 1:
+                output = "One";
+                break;
+            case 2:
+                output = "Two";
+                break;
+            case 3:
+                output = "Three";
+                break;
+            case 4:
+                output = "Four";
+                break;
+            case 5:
+                output = "Five";
+                break;
+            case 6:
+                output = "Six";
+                break;
+            case 7:
+                output = "Seven";
+                break;
+            case 8:
+                output = "Eight";
+                break;
+            case 9:
+                output = "Nine";
+                break;
+        }
+        return output;
+    }
+
     public static class UnitTestMyMethods {
         @Test
         public void testBoolToString() {
@@ -45,7 +94,7 @@ public class BooleanToString {
         }
 
         @Test
-        public void testIsThisTriangle(){
+        public void testIsThisTriangle() {
             assertTrue(isThisTriangle(3, 4, 6));
             System.out.println("Positive test is passed");
 
@@ -54,6 +103,13 @@ public class BooleanToString {
 
             assertFalse(isThisTriangle(0, 5, 100));
             System.out.println("negative test with zero is passed");
+        }
+
+        @Test
+        public void testSwitchItUp(){
+            assertEquals(switchItUp(3), "Three");
+            assertEquals(switchItUp(0), "Zero");
+            assertFalse(switchItUp(11), false);
         }
     }
 }
