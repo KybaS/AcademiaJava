@@ -15,7 +15,7 @@ public class TaskSumOfPositiveFromArray {
         test.testSumOfPositiveNumbersFromArray();
     }
 
-    public static int sum(int[] numbers) {
+    private static int sum(int[] numbers) {
         int sum = 0;
         for (int i : numbers) {
             if (i >= 1) sum += i;

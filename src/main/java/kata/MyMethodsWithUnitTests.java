@@ -1,24 +1,46 @@
 package kata;
 
+import java.util.Arrays;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class BooleanToString {
+public class MyMethodsWithUnitTests {
+
     public static void main(String[] args) {
+
+        int[] array = {2, 13, 45, 0, 1000, -9};
 
         System.out.println(booleanToString(false));
         System.out.println(booleanToString(true));
 
         System.out.println(isThisTriangle(10, 0, 30));
 
-        reversedSequence(100);
+        reversedSequence(10);
 
         System.out.println(switchItUp(7));
 
         UnitTestMyMethods unitTestMyMethods = new UnitTestMyMethods();
         unitTestMyMethods.testBoolToString();
         unitTestMyMethods.testIsThisTriangle();
+        unitTestMyMethods.testMinMaxFromArray();
+
+        System.out.println(Arrays.toString(minMax(array)));
+    }
+
+    private static int[] minMax(int[] array) {
+        int max = array[0];
+        int min = array[0];
+        for (int i : array) {
+            if (max < i) {
+                max = i;
+            }
+            if (min > i){
+                min = i;
+            }
+        }
+        return new int[]{min, max};
     }
 
     private static String booleanToString(boolean YesNo) {
@@ -86,10 +108,10 @@ public class BooleanToString {
     public static class UnitTestMyMethods {
         @Test
         public void testBoolToString() {
-            assertEquals(BooleanToString.booleanToString(true), "Yes");
+            assertEquals(MyMethodsWithUnitTests.booleanToString(true), "Yes");
             System.out.println("boolean true == String yes");
 
-            assertEquals(BooleanToString.booleanToString(false), "No");
+            assertEquals(MyMethodsWithUnitTests.booleanToString(false), "No");
             System.out.println("boolean false == String no");
         }
 
@@ -106,10 +128,19 @@ public class BooleanToString {
         }
 
         @Test
-        public void testSwitchItUp(){
+        public void testSwitchItUp() {
             assertEquals(switchItUp(3), "Three");
             assertEquals(switchItUp(0), "Zero");
             assertFalse(switchItUp(11), false);
+        }
+
+        @Test
+        public void testMinMaxFromArray(){
+            assertArrayEquals(new int[]{5, 777}, MyMethodsWithUnitTests.minMax(new int[] {7, 5, 33, 777, 567, 10}));
+            System.out.println("test with min: 5 and max: 777 is passed");
+
+            assertArrayEquals(new int[]{-45, 555}, MyMethodsWithUnitTests.minMax(new int[] {456, 5, 7, 555, 0, -45, -4}));
+            System.out.println("test with min: -45 and max: 555 is passed");
         }
     }
 }
