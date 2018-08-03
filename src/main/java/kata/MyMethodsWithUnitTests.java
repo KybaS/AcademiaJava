@@ -1,8 +1,8 @@
 package kata;
 
-import java.util.Arrays;
-
 import org.junit.Test;
+
+import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
@@ -21,12 +21,39 @@ public class MyMethodsWithUnitTests {
 
         System.out.println(switchItUp(7));
 
+        System.out.println(Arrays.toString(minMax(array)));
+
+        System.out.println(arithmetic(5, 10, "subtract"));
+
+
         UnitTestMyMethods unitTestMyMethods = new UnitTestMyMethods();
         unitTestMyMethods.testBoolToString();
         unitTestMyMethods.testIsThisTriangle();
         unitTestMyMethods.testMinMaxFromArray();
+        unitTestMyMethods.testArithmetic();
+    }
 
-        System.out.println(Arrays.toString(minMax(array)));
+    private static int arithmetic(int a, int b, String operator) {
+        int result = 0;
+
+        switch (operator) {
+            case "add":
+                result = a + b;
+                break;
+            case "subtract":
+                result = a - b;
+                break;
+            case "multiply":
+                result = a * b;
+                break;
+            case "divide":
+                result = a / b;
+                break;
+                default:
+                    System.out.println(result);
+                    break;
+        }
+        return result;
     }
 
     private static int[] minMax(int[] array) {
@@ -36,7 +63,7 @@ public class MyMethodsWithUnitTests {
             if (max < i) {
                 max = i;
             }
-            if (min > i){
+            if (min > i) {
                 min = i;
             }
         }
@@ -135,12 +162,30 @@ public class MyMethodsWithUnitTests {
         }
 
         @Test
-        public void testMinMaxFromArray(){
-            assertArrayEquals(new int[]{5, 777}, MyMethodsWithUnitTests.minMax(new int[] {7, 5, 33, 777, 567, 10}));
+        public void testMinMaxFromArray() {
+            assertArrayEquals(new int[]{5, 777}, MyMethodsWithUnitTests.minMax(new int[]{7, 5, 33, 777, 567, 10}));
             System.out.println("test with min: 5 and max: 777 is passed");
 
-            assertArrayEquals(new int[]{-45, 555}, MyMethodsWithUnitTests.minMax(new int[] {456, 5, 7, 555, 0, -45, -4}));
+            assertArrayEquals(new int[]{-45, 555}, MyMethodsWithUnitTests.minMax(new int[]{456, 5, 7, 555, 0, -45, -4}));
             System.out.println("test with min: -45 and max: 555 is passed");
+        }
+
+        @Test
+        public void testArithmetic(){
+            assertEquals("'add' should return a + b", 100, arithmetic(70, 30, "add"));
+            System.out.println("test with parameter 'add' is passed");
+
+            assertEquals("'subtract' should return a - b", 200, arithmetic(500, 300, "subtract"));
+            System.out.println("test with parameter 'subtract' is passed");
+
+            assertEquals("'multiply' should return a * b", 50, arithmetic(5, 10, "multiply"));
+            System.out.println("test with parameter 'multiply' is passed");
+
+            assertEquals("'divide' should return a / b", 7, arithmetic(14, 2, "divide"));
+            System.out.println("test with parameter 'divide' is passed");
+
+            assertEquals("test with wrong operator parameter", 0, arithmetic(5, 4, "negative_case"));
+            System.out.println("test with wrong operator parameter is passed");
         }
     }
 }
