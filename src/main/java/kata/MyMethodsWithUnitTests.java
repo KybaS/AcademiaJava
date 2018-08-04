@@ -26,6 +26,8 @@ public class MyMethodsWithUnitTests {
 
         System.out.println("Factorial: " + factorial(10));
 
+        System.out.println("Digital root: " + digitalRoot(55));
+
 
         UnitTestMyMethods unitTestMyMethods = new UnitTestMyMethods();
         unitTestMyMethods.testBoolToString();
@@ -33,6 +35,10 @@ public class MyMethodsWithUnitTests {
         unitTestMyMethods.testMinMaxFromArray();
         unitTestMyMethods.testArithmetic();
         unitTestMyMethods.testFactorial();
+    }
+
+    private static int digitalRoot(int n) {
+        return n < 10 ? n : digitalRoot(digitalRoot(n / 10) + n % 10);
     }
 
     private static int factorial(int number) {
@@ -207,7 +213,7 @@ public class MyMethodsWithUnitTests {
         }
 
         @Test
-        public void testFactorial(){
+        public void testFactorial() {
             assertEquals(6, factorial(3));
             System.out.println("factorial from 3 should be 6, checked!");
 
