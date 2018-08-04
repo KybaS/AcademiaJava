@@ -9,7 +9,6 @@ import static org.junit.Assert.*;
 public class MyMethodsWithUnitTests {
 
     public static void main(String[] args) {
-
         int[] array = {2, 13, 45, 0, 1000, -9};
 
         System.out.println(booleanToString(false));
@@ -25,12 +24,31 @@ public class MyMethodsWithUnitTests {
 
         System.out.println(arithmetic(5, 10, "subtract"));
 
+        System.out.println("Factorial: " + factorial(10));
+
 
         UnitTestMyMethods unitTestMyMethods = new UnitTestMyMethods();
         unitTestMyMethods.testBoolToString();
         unitTestMyMethods.testIsThisTriangle();
         unitTestMyMethods.testMinMaxFromArray();
         unitTestMyMethods.testArithmetic();
+        unitTestMyMethods.testFactorial();
+    }
+
+    private static int factorial(int number) {
+        int num = 1;
+        int res = 1;
+
+        if (number >= 1) {
+            for (int i = 0; i < number; i++) {
+                res = res * num++;
+            }
+        } else if (number == 0) {
+            res = 1;
+        } else if (number <= -1) {
+            res = 0;
+        }
+        return res;
     }
 
     private static int arithmetic(int a, int b, String operator) {
@@ -49,9 +67,9 @@ public class MyMethodsWithUnitTests {
             case "divide":
                 result = a / b;
                 break;
-                default:
-                    System.out.println(result);
-                    break;
+            default:
+                System.out.println(result);
+                break;
         }
         return result;
     }
@@ -171,7 +189,7 @@ public class MyMethodsWithUnitTests {
         }
 
         @Test
-        public void testArithmetic(){
+        public void testArithmetic() {
             assertEquals("'add' should return a + b", 100, arithmetic(70, 30, "add"));
             System.out.println("test with parameter 'add' is passed");
 
@@ -186,6 +204,18 @@ public class MyMethodsWithUnitTests {
 
             assertEquals("test with wrong operator parameter", 0, arithmetic(5, 4, "negative_case"));
             System.out.println("test with wrong operator parameter is passed");
+        }
+
+        @Test
+        public void testFactorial(){
+            assertEquals(6, factorial(3));
+            System.out.println("factorial from 3 should be 6, checked!");
+
+            assertEquals(1, factorial(0));
+            System.out.println("factorial for 0 always 1, checked!");
+
+            assertEquals(0, factorial(-100));
+            System.out.println("this method return 0 for negative number, checked!");
         }
     }
 }
