@@ -13,7 +13,7 @@ class Window extends JFrame {
 
     int width = 500;
     int height = 500;
-    private JButton cancelButton;
+    private JButton pressMe;
 
     Window() {
         super("JFrame window");
@@ -23,14 +23,14 @@ class Window extends JFrame {
         panel.setOpaque(true);
         panel.setLayout(null);
 
-        cancelButton = new JButton("Cancel");
-        cancelButton.setLocation(25, 25);
-        cancelButton.setSize(100, 40);
-        panel.add(cancelButton);
+        pressMe = new JButton("Click me");
+        pressMe.setLocation(25, 25);
+        pressMe.setSize(100, 40);
+        panel.add(pressMe);
 
         EventHandler eventHandler = new EventHandler();
-        cancelButton.addActionListener(eventHandler);
-        cancelButton.addMouseListener(new MyMouseListener());
+        pressMe.addActionListener(eventHandler);
+        pressMe.addMouseListener(new MyMouseListener());
 
         setContentPane(panel);
     }
@@ -45,25 +45,25 @@ class Window extends JFrame {
 
     public class MyMouseListener implements MouseListener {
         public void mouseClicked(MouseEvent e) {
-            cancelButton.setBackground(Color.RED);
+            pressMe.setBackground(Color.RED);
         }
 
         public void mouseEntered(MouseEvent e) {
-            cancelButton.setBackground(Color.GREEN);
+            pressMe.setBackground(Color.GREEN);
             Random r = new Random();
-            cancelButton.setLocation(r.nextInt(width - 100), r.nextInt(height - 100));
+            pressMe.setLocation(r.nextInt(width - 100), r.nextInt(height - 100));
         }
 
         public void mousePressed(MouseEvent e) {
-            cancelButton.setBackground(Color.ORANGE);
+            pressMe.setBackground(Color.ORANGE);
         }
 
         public void mouseReleased(MouseEvent e) {
-            cancelButton.setBackground(Color.BLACK);
+            pressMe.setBackground(Color.BLACK);
         }
 
         public void mouseExited(MouseEvent e) {
-            cancelButton.setBackground(Color.WHITE);
+            pressMe.setBackground(Color.WHITE);
         }
 
     }

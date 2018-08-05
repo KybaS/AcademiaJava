@@ -24,7 +24,7 @@ public class MyMethodsWithUnitTests {
 
         System.out.println(arithmetic(5, 10, "subtract"));
 
-        System.out.println("Factorial: " + factorial(10));
+        System.out.println("Factorial: " + factorial(3));
 
         System.out.println("Digital root: " + digitalRoot(55));
 
@@ -41,9 +41,9 @@ public class MyMethodsWithUnitTests {
         return n < 10 ? n : digitalRoot(digitalRoot(n / 10) + n % 10);
     }
 
-    private static int factorial(int number) {
-        int num = 1;
-        int res = 1;
+    static long factorial(long number) {
+        long num = 1;
+        long res = 1;
 
         if (number >= 1) {
             for (int i = 0; i < number; i++) {
@@ -51,7 +51,7 @@ public class MyMethodsWithUnitTests {
             }
         } else if (number == 0) {
             res = 1;
-        } else if (number <= -1) {
+        } else {
             res = 0;
         }
         return res;
