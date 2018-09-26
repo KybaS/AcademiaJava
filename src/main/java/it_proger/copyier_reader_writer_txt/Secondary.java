@@ -38,26 +38,38 @@ public class Secondary {
         }
     }
 
-    void ownCopyingDataTXT(String pathNameFromCopying, String pathNameTo) throws IOException {
+    void ownCopyingDataTXT(String pathNameFromCopying, String pathNameTo) {
 
-        File file = new File(pathNameTo);
-        File file1 = new File(pathNameFromCopying);
-        PrintWriter printWriter = new PrintWriter(file);
+        BufferedReader bufferedReader = null;
 
-        if (!file.exists())
-            file.createNewFile();
+        try {
+            File file = new File(pathNameTo);
+            File file1 = new File(pathNameFromCopying);
+            PrintWriter printWriter = new PrintWriter(file);
 
-        if (!file1.exists())
-            file1.createNewFile();
+            if (!file.exists())
+                file.createNewFile();
 
-        BufferedReader bufferedReader = new BufferedReader(new java.io.FileReader(file1));
+            if (!file1.exists())
+                file1.createNewFile();
 
-        String line;
-        while ((line = bufferedReader.readLine()) != null) {
-            printWriter.println(line);
+            bufferedReader = new BufferedReader(new java.io.FileReader(file1));
+
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                printWriter.println(line);
+            }
+
+            printWriter.close();
+
+        } catch (IOException e) {
+            System.out.println("ERROR - " + e);
+        } finally {
+            try {
+                bufferedReader.close();
+            } catch (IOException e) {
+                System.out.println("ERROR - " + e);
+            }
         }
-
-        printWriter.close();
-        bufferedReader.close();
     }
 }

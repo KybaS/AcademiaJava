@@ -1,9 +1,7 @@
 package it_proger.copyier_reader_writer_txt;
 
-import java.io.IOException;
-
 public class Master {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         final String PATH_TO_TXT_FILE = "test.txt";
         final String PATH_FROM_TXT_FILE = "data.txt";
