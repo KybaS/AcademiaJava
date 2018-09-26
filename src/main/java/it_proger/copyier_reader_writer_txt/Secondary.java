@@ -41,12 +41,16 @@ public class Secondary {
     void ownCopyingDataTXT(String pathNameFromCopying, String pathNameTo) throws IOException {
 
         File file = new File(pathNameTo);
+        File file1 = new File(pathNameFromCopying);
         PrintWriter printWriter = new PrintWriter(file);
 
         if (!file.exists())
             file.createNewFile();
 
-        BufferedReader bufferedReader = new BufferedReader(new java.io.FileReader(pathNameFromCopying));
+        if (!file1.exists())
+            file1.createNewFile();
+
+        BufferedReader bufferedReader = new BufferedReader(new java.io.FileReader(file1));
 
         String line;
         while ((line = bufferedReader.readLine()) != null) {

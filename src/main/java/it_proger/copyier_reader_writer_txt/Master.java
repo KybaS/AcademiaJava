@@ -5,8 +5,8 @@ import java.io.IOException;
 public class Master {
     public static void main(String[] args) throws IOException {
 
-        final String PATH_TO_TXT_FILE = "C:\\Users\\skyba\\Downloads\\test.txt";
-        final String PATH_FROM_TXT_FILE = "C:\\Users\\skyba\\Downloads\\data.txt";
+        final String PATH_TO_TXT_FILE = "test.txt";
+        final String PATH_FROM_TXT_FILE = "data.txt";
 
         Secondary secondary = new Secondary();
 
