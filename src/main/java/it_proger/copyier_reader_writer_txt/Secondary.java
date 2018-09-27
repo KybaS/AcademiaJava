@@ -37,9 +37,7 @@ public class Secondary {
     void ownWriter(String pathName, String text) {
         try {
             File file = new File(pathName);
-
-            if (!file.exists())
-                file.createNewFile();
+            creatorFile(pathName);
 
             PrintWriter printWriter = new PrintWriter(file);
             printWriter.println(text);

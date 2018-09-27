@@ -13,7 +13,7 @@ public class Master {
                 "<head>KSV</head>" +
                 "<body>" +
                 "<div>" +
-                "<marquee>HELLO WORLD</marquee>" +
+                "<marquee><mark>HELLO WORLD</mark></marquee>" +
                 "</div>" +
                 "</body>" +
                 "</html>");
