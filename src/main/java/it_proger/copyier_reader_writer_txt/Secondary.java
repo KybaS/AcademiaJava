@@ -7,6 +7,18 @@ import java.io.PrintWriter;
 
 public class Secondary {
 
+    void creatorFile(String pathName){
+        try {
+            File file = new File(pathName);
+
+            if (!file.exists())
+                file.createNewFile();
+
+        }catch (IOException e){
+            System.out.println("ERROR - " + e);
+        }
+    }
+
     void ownReader(String pathName) {
         try {
             BufferedReader bufferedReader = new BufferedReader(new java.io.FileReader(pathName));
@@ -38,7 +50,7 @@ public class Secondary {
         }
     }
 
-    void ownCopyingDataTXT(String pathNameFromCopying, String pathNameTo) {
+    void ownCopyingData(String pathNameFromCopying, String pathNameTo) {
 
         BufferedReader bufferedReader = null;
 
