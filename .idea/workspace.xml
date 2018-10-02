@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ffa2e8-a778-4b24-ad19-573068d1137d" name="Default" comment="refactoring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/Shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/Shapes/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/Shapes/Square.java" afterDir="false" />
+    <list default="true" id="07ffa2e8-a778-4b24-ad19-573068d1137d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/nestedClasses/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nestedClasses/shell/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/_factorial/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/_factorial/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/Arrays.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,58 +21,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Master.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it_proger/copyier_reader_writer_txt/Master.java">
+      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nestedClasses/shell/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="289">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Shapes/Shape.java">
+      <file leaf-file-name="Users.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nestedClasses/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Shapes/Circle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-              <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Shapes/Square.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-              <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -98,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/animals/Dog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/animals/Octopus.java" />
         <option value="$PROJECT_DIR$/src/main/java/animals/Cat.java" />
         <option value="$PROJECT_DIR$/src/main/java/animals/Polymorphism.java" />
         <option value="$PROJECT_DIR$/src/main/java/animals/Animal.java" />
@@ -149,6 +122,8 @@
         <option value="$PROJECT_DIR$/src/main/java/arrays/Shapes/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/Shapes/Square.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/Arrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nestedClasses/shell/Computer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nestedClasses/Users.java" />
       </list>
     </option>
   </component>
@@ -216,7 +191,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="nestedClasses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
@@ -224,24 +199,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="Shapes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcademiaJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcademiaJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoopark" type="462c0819:PsiDirectoryNode" />
+              <item name="nestedClasses" type="462c0819:PsiDirectoryNode" />
+              <item name="shell" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
@@ -425,13 +384,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529791346318</updated>
-    </task>
-    <task id="LOCAL-00024" summary="arrays with methods">
-      <created>1531425725025</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1531425725025</updated>
     </task>
     <task id="LOCAL-00025" summary="arrays with methods">
       <created>1531427851242</created>
@@ -769,7 +721,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538044688713</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Shape polymorphism">
+      <created>1538510031103</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1538510031103</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -779,6 +738,7 @@
       <window_info anchor="right" x="705" y="119" width="166" height="586" id="Palette" order="3" weight="0.3295302" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="7" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.13254787" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
@@ -786,8 +746,8 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.2371134" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.3295302" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21649484" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.14874816" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29013255" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14874816" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18590604" />
@@ -799,7 +759,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27982327" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.13254787" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -840,7 +799,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="get current season" />
     <MESSAGE value="enum" />
     <MESSAGE value="enum rgb" />
     <MESSAGE value="GUI JFrame/JLabel" />
@@ -865,7 +823,8 @@
     <MESSAGE value="refactoring methods which works with txt files (create/write/read/copy text)" />
     <MESSAGE value="The creatorFile method was added" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="Shape polymorphism" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shape polymorphism" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -877,20 +836,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic_operators/LogicOperators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/abstract_restaurant/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/deposit_counter/PercentOnMyDepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1220,6 +1165,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Shapes/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Shapes/Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1231,20 +1193,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Shapes/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nestedClasses/shell/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nestedClasses/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
