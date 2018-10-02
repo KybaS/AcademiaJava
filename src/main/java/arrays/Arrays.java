@@ -1,7 +1,16 @@
 package arrays;
 
+import arrays.Shapes.Circle;
+import arrays.Shapes.Shape;
+import arrays.Shapes.Square;
+
 public class Arrays {
     public static void main(String[] args) {
+
+        Shape[] shapes = new Shape[] {new Circle(), new Square()};
+        for (Shape shape : shapes) {
+            shape.draw();
+        }
 
         int[] numbers = {5, 7, 100, -505, 0, -9};
         numbers[1] = 777;
