@@ -1,7 +1,5 @@
 package arrays.Shapes;
 
-public class Shape {
-    public void draw(){
-
-    }
+public abstract class Shape {
+    public abstract void draw();
 }
