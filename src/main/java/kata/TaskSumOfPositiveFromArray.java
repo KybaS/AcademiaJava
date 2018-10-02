@@ -7,8 +7,6 @@ import static org.junit.Assert.assertEquals;
 public class TaskSumOfPositiveFromArray {
     public static void main(String[] args) {
 
-        System.out.println("Factorial: "+MyMethodsWithUnitTests.factorial(10));
-
         int[] numbers = {5, -505, 0, -9, 1};
 
         System.out.println(sum(numbers));

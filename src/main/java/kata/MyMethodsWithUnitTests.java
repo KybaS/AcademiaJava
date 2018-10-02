@@ -24,8 +24,6 @@ public class MyMethodsWithUnitTests {
 
         System.out.println(arithmetic(5, 10, "subtract"));
 
-        System.out.println("Factorial: " + factorial(3));
-
         System.out.println("Digital root: " + digitalRoot(55));
 
 
@@ -34,28 +32,12 @@ public class MyMethodsWithUnitTests {
         unitTestMyMethods.testIsThisTriangle();
         unitTestMyMethods.testMinMaxFromArray();
         unitTestMyMethods.testArithmetic();
-        unitTestMyMethods.testFactorial();
     }
 
     private static int digitalRoot(int n) {
         return n < 10 ? n : digitalRoot(digitalRoot(n / 10) + n % 10);
     }
 
-    static long factorial(long number) {
-        long num = 1;
-        long res = 1;
-
-        if (number >= 1) {
-            for (int i = 0; i < number; i++) {
-                res = res * num++;
-            }
-        } else if (number == 0) {
-            res = 1;
-        } else {
-            res = 0;
-        }
-        return res;
-    }
 
     private static int arithmetic(int a, int b, String operator) {
         int result = 0;
@@ -210,18 +192,6 @@ public class MyMethodsWithUnitTests {
 
             assertEquals("test with wrong operator parameter", 0, arithmetic(5, 4, "negative_case"));
             System.out.println("test with wrong operator parameter is passed");
-        }
-
-        @Test
-        public void testFactorial() {
-            assertEquals(6, factorial(3));
-            System.out.println("factorial from 3 should be 6, checked!");
-
-            assertEquals(1, factorial(0));
-            System.out.println("factorial for 0 always 1, checked!");
-
-            assertEquals(0, factorial(-100));
-            System.out.println("this method return 0 for negative number, checked!");
         }
     }
 }
