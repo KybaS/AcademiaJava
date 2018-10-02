@@ -11,5 +11,12 @@ public class Users {
         pc.disc.loading(true);
         pc.disc.formating(false);
         pc.processor.shutDown();
+
+        new Computer(){
+            void myPC(){
+                this.processor.shutDown();
+                this.disc.loading(true);
+            }
+        };
     }
 }
