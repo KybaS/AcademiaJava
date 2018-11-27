@@ -8,7 +8,7 @@ public class MultidimensionalArray {
                 {45, 765, 45, 3},
                 {5, 1000}};
 
-        System.out.println(twoDimensionalArray[1][1]);
+        System.out.println(twoDimensionalArray[2][1]);
 
         for (int row = 0; row < twoDimensionalArray.length; row++) {
             for (int column = 0; column < twoDimensionalArray[row].length; column++) {
