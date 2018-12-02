@@ -7,10 +7,12 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/a_astra/main_block/prototype/RXqc.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/a_astra/main_block/prototype/Robot.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/a_astra/users_block/utils/Gtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/a_astra/users_block/utils/Jtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/comparison_arrays/ComparisonOfArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/comparison_arrays/MethodsForComparison.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/arrays/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/ArraySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/MultidimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/MultidimensionalArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arrays/MultidimensionalArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/MultidimensionalArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/ArraySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/ArraySort.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="MultidimensionalArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arrays/MultidimensionalArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -36,20 +38,83 @@
       <file leaf-file-name="Gtest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/a_astra/users_block/utils/Gtest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArraySort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArraySort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArraySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="1326">
+              <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComparisonOfArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/comparison_arrays/ComparisonOfArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it_proger/FileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Threading.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it_proger/threads/Threading.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-833">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Master.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it_proger/copyier_reader_writer_txt/Master.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Secondary.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it_proger/copyier_reader_writer_txt/Secondary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-971">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodsForComparison.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/comparison_arrays/MethodsForComparison.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -76,10 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/zoopark/Wolf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zoopark/ZooArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zoopark/Animal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zoopark/GroupOfAnimals.java" />
         <option value="$PROJECT_DIR$/GUI/src/main/java/gui/MyGuiWindow.java" />
         <option value="$PROJECT_DIR$/GUI/src/main/java/gui/TestGui.form" />
         <option value="$PROJECT_DIR$/src/main/java/kata/BoolenToString.java" />
@@ -125,8 +186,12 @@
         <option value="$PROJECT_DIR$/src/main/java/prometeus/SquareRoot.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/MultidimensionalArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/a_astra/main_block/Robots.java" />
-        <option value="$PROJECT_DIR$/src/main/java/a_astra/users_block/utils/Gtest.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrays/ArraySort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/a_astra/users_block/utils/Gtest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrays/ComparisonOfArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/a_astra/users_block/utils/Jtest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrays/comparison_arrays/MethodsForComparison.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrays/comparison_arrays/ComparisonOfArrays.java" />
       </list>
     </option>
   </component>
@@ -162,7 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,7 +259,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="a_astra" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
@@ -202,8 +267,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="a_astra" type="462c0819:PsiDirectoryNode" />
-              <item name="main_block" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="comparison_arrays" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
@@ -211,9 +276,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="a_astra" type="462c0819:PsiDirectoryNode" />
-              <item name="main_block" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="it_proger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
@@ -221,8 +284,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="a_astra" type="462c0819:PsiDirectoryNode" />
-              <item name="users_block" type="462c0819:PsiDirectoryNode" />
+              <item name="it_proger" type="462c0819:PsiDirectoryNode" />
+              <item name="copyier_reader_writer_txt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
@@ -230,46 +293,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="a_astra" type="462c0819:PsiDirectoryNode" />
-              <item name="users_block" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcademiaJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcademiaJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcademiaJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AcademiaJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcademiaJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="my_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,14 +323,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArraySort">
+  <component name="RunManager" selected="Application.Master">
     <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArraySort" />
       <module name="AcademiaJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="arrays.comparison_arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ComparisonOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.comparison_arrays.ComparisonOfArrays" />
+      <module name="AcademiaJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.comparison_arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,35 +357,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MultidimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MultidimensionalArray" />
+    <configuration name="Jtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_astra.users_block.utils.Jtest" />
       <module name="AcademiaJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="a_astra.users_block.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Robots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a_astra.main_block.Robots" />
+    <configuration name="Master" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it_proger.copyier_reader_writer_txt.Master" />
       <module name="AcademiaJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_astra.main_block.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prometeus.SquareRoot" />
-      <module name="AcademiaJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="prometeus.*" />
+          <option name="PATTERN" value="it_proger.copyier_reader_writer_txt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,19 +421,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SquareRoot" />
-      <item itemvalue="Application.MultidimensionalArray" />
       <item itemvalue="Application.ArraySort" />
-      <item itemvalue="Application.Robots" />
       <item itemvalue="Application.Gtest" />
+      <item itemvalue="Application.Jtest" />
+      <item itemvalue="Application.ComparisonOfArrays" />
+      <item itemvalue="Application.Master" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArraySort" />
+        <item itemvalue="Application.Master" />
+        <item itemvalue="Application.ComparisonOfArrays" />
+        <item itemvalue="Application.Jtest" />
         <item itemvalue="Application.Gtest" />
-        <item itemvalue="Application.Robots" />
-        <item itemvalue="Application.MultidimensionalArray" />
-        <item itemvalue="Application.SquareRoot" />
+        <item itemvalue="Application.ArraySort" />
       </list>
     </recent_temporary>
   </component>
@@ -416,13 +447,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529791346318</updated>
-    </task>
-    <task id="LOCAL-00031" summary="tic tac toe game">
-      <created>1531674148330</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1531674148330</updated>
     </task>
     <task id="LOCAL-00032" summary="refactoring">
       <created>1531674538158</created>
@@ -760,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543171525247</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Improve array sorting data">
+      <created>1543324627506</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1543324627508</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -797,7 +828,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" x="705" y="119" width="166" height="586" id="Palette" order="3" weight="0.3295302" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -810,11 +840,11 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.2371134" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.3295302" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298969" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.281296" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.281296" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.14874816" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20268457" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21073826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info id="UI Designer" order="5" />
@@ -863,7 +893,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Polymorphism" />
     <MESSAGE value="Abstract" />
     <MESSAGE value="zoopark" />
     <MESSAGE value=" polymorphism / zoopark" />
@@ -888,7 +917,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="fibonacci numbers" />
     <MESSAGE value="SquareRoot / prometheus java" />
-    <option name="LAST_COMMIT_MESSAGE" value="SquareRoot / prometheus java" />
+    <MESSAGE value="Improve array sorting data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve array sorting data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -900,62 +930,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/random_numbers_game/CubeRandGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rgb_enum/RGB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rgb_enum/Colors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/methods/MethodsWithParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/methods/MethodWithArg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/methods/MyMethodsWithReturn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/methods/MetWithUnknownNumOfParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/math/MathExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kata/LeetSpeak.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-349">
@@ -1030,13 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it_proger/copyier_reader_writer_txt/Master.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1208,13 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArrayToTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -1236,27 +1196,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/for_loop/ReverseText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KYBA.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arrays/MultidimensionalArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/a_astra/users_block/utils/Gtest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arrays/ArraySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="1326">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/a_astra/users_block/utils/Jtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/comparison_arrays/MethodsForComparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrays/comparison_arrays/ComparisonOfArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it_proger/copyier_reader_writer_txt/Secondary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-971">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it_proger/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it_proger/threads/Threading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-833">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it_proger/copyier_reader_writer_txt/Master.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>

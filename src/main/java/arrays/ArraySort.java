@@ -17,39 +17,39 @@ public class ArraySort {
         evenOddSort(array);
         System.out.println(" ");
 
-        System.out.println("Array sum: "+displaySumOfArray(array));
+        System.out.println("Array sum: " + displaySumOfArray(array));
     }
 
-    private static void evenOddSort(int[] numbers){
+    private static void evenOddSort(int[] numbers) {
         ArrayList<Integer> evenList = new ArrayList<>();
         ArrayList<Integer> oddList = new ArrayList<>();
 
-        for (int num:numbers){
-            if (num % 2 == 0){
+        for (int num : numbers) {
+            if (num % 2 == 0) {
                 evenList.add(num);
-            }else {
+            } else {
                 oddList.add(num);
             }
         }
 
         System.out.print("Even numbers from array: ");
 
-        for (int even:evenList){
+        for (int even : evenList) {
             System.out.print(even + " ");
         }
 
         System.out.println(" ");
         System.out.print("Odd numbers from array:  ");
 
-        for (int odd:oddList){
+        for (int odd : oddList) {
             System.out.print(odd + " ");
         }
     }
 
-    private static int displaySumOfArray(int[] numbers){
+    private static int displaySumOfArray(int[] numbers) {
         int sum = 0;
-        for (int i:numbers){
-            sum+=i;
+        for (int i : numbers) {
+            sum += i;
         }
         return sum;
     }
@@ -64,12 +64,12 @@ public class ArraySort {
         }
     }
 
-    private static void bubbleSortPlus(int[] array){
+    private static void bubbleSortPlus(int[] array) {
         int length = array.length;
 
         System.out.print("Original array data:       ");
 
-        for (int num:array){
+        for (int num : array) {
             System.out.print(num + " ");
         }
 
