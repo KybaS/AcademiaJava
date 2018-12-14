@@ -12,7 +12,7 @@ public class SocketServer {
 
     public static void main(String[] args) throws Exception{
 
-        try (ServerSocket serverSocket = new ServerSocket(11111)){
+        try (ServerSocket serverSocket = new ServerSocket(7777)){
             while (true){
                 try (Socket socket = serverSocket.accept()){
                     serverClient(socket);
