@@ -2,27 +2,33 @@ package socket.echo;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.io.EOFException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.logging.Logger;
 
-public class EchoServer {
+public class Server {
 
-    private static final Logger LOGGER = Logger.getLogger(EchoServer.class.getName());
+    private static final int PORT = 7777;
+    private static final Logger LOGGER = Logger.getLogger(Server.class.getName());
 
     public static void main(String[] args) throws Exception {
-        try (ServerSocket serverSocket = new ServerSocket(11112)) {
-            System.out.println("Server ready");
+        int count = 1;
+
+        try (ServerSocket serverSocket = new ServerSocket(PORT)) {
+            System.out.println("Server is ready, port: " + PORT);
+
             while (true) {
                 try (Socket socket = serverSocket.accept()) {
-                    serveClient(socket);
+                    System.out.println("Client connected " + count++);
+
+                    server(socket);
                 }
             }
         }
     }
 
-    private static void serveClient(Socket socket) throws Exception {
+
+    private static void server(Socket socket) throws Exception {
         LOGGER.info("Serve client " + socket.getInetAddress());
 
         try (DataInputStream dataInputStream = new DataInputStream(socket.getInputStream())) {
@@ -31,13 +37,15 @@ public class EchoServer {
             while (true) {
                 String request = dataInputStream.readUTF();
 
-                LOGGER.info("Request: " + request);
+                String requestWithoutSpaces = request.replaceAll("\\s+", "");
+                int countCharacters = requestWithoutSpaces.length();
 
-                dataOutputStream.writeUTF("Success");
+                LOGGER.info("Request: " + request);
+                Thread.sleep(5000);
+
+                dataOutputStream.writeUTF("Your message is " + countCharacters + " characters long.");
                 dataOutputStream.flush();
             }
-        } catch (EOFException e) {
-
         }
     }
 }
