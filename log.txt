@@ -1,0 +1,19 @@
+***********************************
+Your name is [You are just Serg] and your age is 30
+Approximate year of your birth is 1988
+File value - 130 bytes
+Mon Dec 24 01:18:24 EET 2018
+space file:/C:/Users/skyba/IdeaProjects/AcademiaJava/log.txt
+***********************************
+Your name is [Anna is the most beautiful name in the world] and your age is 27
+Approximate year of your birth is 1991
+File value - 403 bytes
+Mon Dec 24 01:18:24 EET 2018
+space file:/C:/Users/skyba/IdeaProjects/AcademiaJava/log.txt
+***********************************
+Your name is [Rex] and your age is 57
+Approximate year of your birth is 1961
+File value - 635 bytes
+Mon Dec 24 01:18:24 EET 2018
+space file:/C:/Users/skyba/IdeaProjects/AcademiaJava/log.txt
+***********************************

@@ -27,7 +27,6 @@ public class Server {
         }
     }
 
-
     private static void server(Socket socket) throws Exception {
         LOGGER.info("Serve client " + socket.getInetAddress());
 
@@ -41,7 +40,7 @@ public class Server {
                 int countCharacters = requestWithoutSpaces.length();
 
                 LOGGER.info("Request: " + request);
-                Thread.sleep(5000);
+                Thread.sleep(2000);
 
                 dataOutputStream.writeUTF("Your message is " + countCharacters + " characters long.");
                 dataOutputStream.flush();
