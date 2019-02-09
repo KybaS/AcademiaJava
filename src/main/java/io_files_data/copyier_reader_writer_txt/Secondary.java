@@ -1,4 +1,4 @@
-package it_proger.copyier_reader_writer_txt;
+package io_files_data.copyier_reader_writer_txt;
 
 import java.io.BufferedReader;
 import java.io.File;

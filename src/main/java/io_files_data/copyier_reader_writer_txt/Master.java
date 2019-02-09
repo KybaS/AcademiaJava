@@ -1,4 +1,4 @@
-package it_proger.copyier_reader_writer_txt;
+package io_files_data.copyier_reader_writer_txt;
 
 public class Master {
     public static void main(String[] args) {
